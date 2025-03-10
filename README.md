@@ -1,3 +1,13 @@
+# Remix of 11ty base blog for playing with Fastly Compute
+
+This repo is a fork of the 11ty base blog we use as an example origin website for writing edge computing apps with Fastly. In particular we use the RSS feed in JSON so that we can create synthetic pages using logic that runs at the network edge. 
+
+⏲️ Stay tuned for tutorials that demonstrate how to use this site.
+
+_Eleventy base blog README below....._
+
+___
+
 # eleventy-base-blog v9
 
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://github.com/11ty/eleventy/releases/tag/v3.0.0)).
