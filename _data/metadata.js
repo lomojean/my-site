@@ -1,8 +1,8 @@
 export default {
-	title: "Eleventy Base Blog v9",
-	url: "https://example.com/",
+	title: "Eleventy Base Blog 🤝 Fastly Compute",
+	url: "https://glitchdotcom.github.io/my-site/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "An example 11ty blog website for experimenting with Fastly Compute.",
 	author: {
 		name: "Your Name Here",
 		email: "youremailaddress@example.com",
