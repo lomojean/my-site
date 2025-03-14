@@ -2,9 +2,23 @@
 
 This repo is a fork of the 11ty base blog we use as an example origin website for writing edge computing apps with Fastly. In particular we use the RSS feed in JSON so that we can create synthetic pages using logic that runs at the network edge. 
 
-⏲️ Stay tuned for tutorials that demonstrate how to use this site.
+You can make your own version of this site and deploy it to GitHub Pages for use with Fastly Compute:
 
-_Eleventy base blog README below....._
+* Fork the repo
+* In the `eleventy.config.js` feed section `eleventyConfig.addPlugin(feedPlugin...` change the `metadata` `base` value to your own GitHub IO domain
+* Create a `gh-pages` branch
+* In your repo **Settings** in the **Pages** section choose `Deploy from a branch` and select the `gh-pages` branch
+* Watch the **Actions** for your deployment status – deployment should run whenever you make a change on the `main` branch
+* Your site will be at `your-github-username.github.io/my-site/` or at the same path as the name you gave the repo
+
+💡 You can use the site with the following Fastly starter kits:
+
+* [Hit counter](https://github.com/glitchdotcom/hit-counter/) to count hits and make a stats page with KV Store
+* [Feed and hit counter](https://github.com/glitchdotcom/11ty-feed-hits/) that adds a synthetic feed page to the mix
+
+⏲️ _Stay tuned for tutorials that demonstrate how to use this site._
+
+> This repo is a fork of the [Eleventy Base Blog](https://demo-base-blog.11ty.dev/) – readme for it included below...
 
 ___
 
