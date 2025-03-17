@@ -13,7 +13,7 @@
 	--background-color: #fff;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
+	--text-color-link: #2ec4b6;
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F;
 
@@ -27,11 +27,11 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
+		--text-color-link: #2ec4b6;
+		--text-color-link-active: #0e9594;
 		--text-color-link-visited: #a6a6f8;
 
-		--background-color: #15202b;
+		--background-color: #011627;
 	}
 }
 
